@@ -1,0 +1,113 @@
+body {
+    background-color: #323232;
+    margin: 0;
+    padding: 0;
+}
+
+
+.playfair-display-uniquifier {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    }
+
+header {
+    color:#793FDF;
+    background-color: #212121;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    
+    background-color: #0D7377;
+    padding: 1em;
+    text-align: center;
+    color:white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:#EEEEEE;
+}
+
+
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+aside {
+    color:#EEEEEE;
+    background-color: #0D7377;
+    padding: 30px;
+    width: 20%;
+    
+}
+
+.right {
+    left:0;
+    margin-left: 10px;
+}
+
+.left {
+    right:0;
+    margin-right: 10px;
+}
+
+.kontak a {
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
+.kontak {
+    color: white;
+    margin-right: 10px;
+    background-color: #14FFEC;
+}
+
+main {
+    background-color: #14FFEC;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    color: #000000;
+}
+
+.form-transaksi {
+    background-color:#14FFEC;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+footer {
+    color: #EEEEEE;
+    background-color: #212121;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+    bottom: 0;
+    position: flex;
+}
+.ft-trans{
+    color: #EEEEEE;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+    bottom: 0;
+    position: flex;
+
+}
+

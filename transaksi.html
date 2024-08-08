@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMENT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <center><h2>ARYANIGGER STORE</h2></center>
+        <MARQUEE><h3>aman dan terpercaya segera beli paket sesuai kebutuhan anda..!!</h3></MARQUEE>
+
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="transaksi.html">TRANSACTION</a></li>
+            <li><a href="invoice.html">INVOICE</a></li>
+            <li><a href="kontak.html">ABOUT US</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <aside class="left">
+            <center>
+                <h2>PAKET A</h2>
+            </center>
+            <img src="img/topup.jpeg" width="150" height="150" alt="paketa">
+                <h3>PAKET A</h3>
+                <h2>EPIC - MYTIC</h2>
+                <p>Rp 249.000</p>
+                <button onclick="beli('PAKET A', 249000)">BUY NOW</button>
+            
+        </aside>
+        <main class="form-transaksi">
+            <hr>
+            <center><h2>TRANSACTION</h2></center>
+            <hr>
+            <form id="transaksiForm">
+                <label for="nama">Full Name:</label><br>
+                <input type="text" id="nama" name="nama"><br><br>
+                <label for="email">email:</label><br>
+                <input type="text" id="email" name="email"><br><br>
+                <label for="alamat">Address:</label><br>
+                <textarea id="alamat" name="alamat"></textarea><br><br>
+                <label for="produk">Paket:</label><br>
+                <div>
+                    <input type="radio" id="paketa" name="joki" value="PAKET A" data-price="249000">
+                    <label for="paketa">PAKET A</label>
+                </div>
+                <div>
+                    <input type="radio" id="paketb" name="joki" value="PAKET B" data-price="627000">
+                    <label for="paketb">PAKET B</label>
+                </div>
+                <br>
+                
+                <button type="button" onclick="buatPesanan()">BOY NOW</button>
+                <button type="reset">RESET</button>
+            </form>
+        </main>
+        <aside class="right">
+            <center>
+                <h2>PAKET B</h2>
+            </center>
+            <img src="img/topup.jpeg" width="150" height="150" alt="paketb">
+                <h3>PAKET B</h3>
+                <h2>EPIC - HONOR</h2>
+                <p>Rp 627.000</p>
+                <button onclick="beli('PAKET B', 627000)">BUY NOW</button>
+        </aside>
+    </div>
+    <script src="script.js"></script>
+    <footer>
+        <p>&copy;ARRYANIGGER STORE</p>
+    </footer>
+</body>
+</html>
